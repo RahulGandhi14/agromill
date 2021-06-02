@@ -2,6 +2,10 @@ import React from 'react'
 import './style.css'
 import bg from './assets/perfect_1.jpeg'
 import dish1 from './assets/1-removebg.png'
+import dish2 from './assets/2-removebg.png'
+import dish3 from './assets/3-removebg.png'
+import dish4 from './assets/4-removebg.png'
+import Card from './Card'
 
 const App = () => {
     return (
@@ -20,38 +24,36 @@ const App = () => {
                     <div>QUICK</div>
                 </div>
             </div>
-            <div className="absolute bottom mb-5 px-6 w-100">
+            <div className="absolute bottom mb-4 px-6 w-100">
                 <div className="grid">
-                    <div className="glass relative">
-                        <div className="absolute w-100 dish_container">
-                            <div className="flex justify">
-                                <img
-                                    className="dish_image"
-                                    src={dish1}
-                                    alt="egg-breakfast"
-                                />
-                            </div>
-                            <div className="w-100 text-center">
-                                <p>Eggs Breakfast</p>
-                                <p className="font-weight-light subheading mt-2 mb-3">
-                                    110 calories
-                                </p>
-                                <div className="details p-3">
-                                    <div className="flex spaceBetween subheading">
-                                        <p>Time</p>
-                                        <p>Portion</p>
-                                    </div>
-                                    <div className="flex spaceBetween heading mt-1">
-                                        <p>15 minutes</p>
-                                        <p>2 person</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="glass">2</div>
-                    <div className="glass">3</div>
-                    <div className="glass">4</div>
+                    <Card
+                        image={dish1}
+                        title="Eggs Breakfast"
+                        calories={110}
+                        time={15}
+                        portion={2}
+                    />
+                    <Card
+                        image={dish2}
+                        title="Croissant"
+                        calories={280}
+                        time={5}
+                        portion={1}
+                    />
+                    <Card
+                        image={dish3}
+                        title="Spaghetti"
+                        calories={158}
+                        time={20}
+                        portion={1}
+                    />
+                    <Card
+                        image={dish4}
+                        title="Vegetable Salad"
+                        calories={124}
+                        time={5}
+                        portion={1}
+                    />
                 </div>
             </div>
             <img className="mainBg" src={bg} alt="background" />
