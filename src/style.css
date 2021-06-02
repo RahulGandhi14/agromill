@@ -65,6 +65,11 @@ nav > div {
     justify-content: space-around;
 }
 
+.active,
+.inactive {
+    cursor: pointer;
+}
+
 .inactive {
     opacity: 0.6;
 }
