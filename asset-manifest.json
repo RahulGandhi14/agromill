@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/foodie.github.io/static/css/main.e597b627.chunk.css",
-    "main.js": "/foodie.github.io/static/js/main.f49f0692.chunk.js",
-    "main.js.map": "/foodie.github.io/static/js/main.f49f0692.chunk.js.map",
-    "runtime-main.js": "/foodie.github.io/static/js/runtime-main.6ad29a1a.js",
-    "runtime-main.js.map": "/foodie.github.io/static/js/runtime-main.6ad29a1a.js.map",
-    "static/js/2.65b59c24.chunk.js": "/foodie.github.io/static/js/2.65b59c24.chunk.js",
-    "static/js/2.65b59c24.chunk.js.map": "/foodie.github.io/static/js/2.65b59c24.chunk.js.map",
+    "main.css": "/foodie.github.io/static/css/main.f0c2f30f.chunk.css",
+    "main.js": "/foodie.github.io/static/js/main.7a71e1d5.chunk.js",
+    "main.js.map": "/foodie.github.io/static/js/main.7a71e1d5.chunk.js.map",
+    "runtime-main.js": "/foodie.github.io/static/js/runtime-main.5822f67e.js",
+    "runtime-main.js.map": "/foodie.github.io/static/js/runtime-main.5822f67e.js.map",
+    "static/js/2.06126376.chunk.js": "/foodie.github.io/static/js/2.06126376.chunk.js",
+    "static/js/2.06126376.chunk.js.map": "/foodie.github.io/static/js/2.06126376.chunk.js.map",
     "index.html": "/foodie.github.io/index.html",
-    "static/css/main.e597b627.chunk.css.map": "/foodie.github.io/static/css/main.e597b627.chunk.css.map",
-    "static/js/2.65b59c24.chunk.js.LICENSE.txt": "/foodie.github.io/static/js/2.65b59c24.chunk.js.LICENSE.txt",
+    "static/css/main.f0c2f30f.chunk.css.map": "/foodie.github.io/static/css/main.f0c2f30f.chunk.css.map",
+    "static/js/2.06126376.chunk.js.LICENSE.txt": "/foodie.github.io/static/js/2.06126376.chunk.js.LICENSE.txt",
     "static/media/1-removebg.14716a3e.png": "/foodie.github.io/static/media/1-removebg.14716a3e.png",
     "static/media/2-removebg.09e8cb72.png": "/foodie.github.io/static/media/2-removebg.09e8cb72.png",
     "static/media/3-removebg.cc85a388.png": "/foodie.github.io/static/media/3-removebg.cc85a388.png",
@@ -17,9 +17,9 @@
     "static/media/perfect_1.490b8a05.jpeg": "/foodie.github.io/static/media/perfect_1.490b8a05.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6ad29a1a.js",
-    "static/js/2.65b59c24.chunk.js",
-    "static/css/main.e597b627.chunk.css",
-    "static/js/main.f49f0692.chunk.js"
+    "static/js/runtime-main.5822f67e.js",
+    "static/js/2.06126376.chunk.js",
+    "static/css/main.f0c2f30f.chunk.css",
+    "static/js/main.7a71e1d5.chunk.js"
   ]
 }
