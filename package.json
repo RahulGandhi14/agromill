@@ -1,5 +1,6 @@
 {
-  "name": "agromill",
+  "name": "foodie.github.io",
+  "homepage": "https://rahulgandhi14.github.io/foodie.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

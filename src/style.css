@@ -1,13 +1,10 @@
-@import url(//db.onlinewebfonts.com/c/07bc241768c969f6b6a27a7bf0dfb490?family=TT+Norms+Regular);
-@import url(//db.onlinewebfonts.com/c/28c0fa4aeac7eb2cb7c34c37298331ff?family=Internacional-Black);
-
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'TT Norms Regular', sans-serif; */
-    font-family: 'Internacional-Black', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #455159;
+    font-weight: 800;
 }
 
 p {
@@ -58,8 +55,6 @@ nav {
 }
 
 nav > div {
-    font-weight: 500;
-    font-family: 'Internacional-Black';
     width: 40%;
     display: flex;
     justify-content: space-around;
@@ -77,7 +72,6 @@ nav > div {
 .headline {
     display: flex;
     justify-content: space-between;
-    /* font-weight: 700; */
     font-size: 34px;
 }
 
