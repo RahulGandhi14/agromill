@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.css'
-import bg from './assets/perfect_1.jpeg'
+import bg from './assets/perfect.jpeg'
 import dish1 from './assets/1-removebg.png'
 import dish2 from './assets/2-removebg.png'
 import dish3 from './assets/3-removebg.png'
@@ -11,7 +11,7 @@ const App = () => {
     return (
         <div className="relative">
             <div className="absolute mainDiv">
-                <nav className="mt-4">
+                <nav className="my-5">
                     <div>
                         <div className="active">Home</div>
                         <div className="inactive">About Us</div>
@@ -24,7 +24,7 @@ const App = () => {
                     <div>QUICK</div>
                 </div>
             </div>
-            <div className="absolute bottom mb-4 px-6 w-100">
+            <div className="absolute bottom mb-6 px-6 w-100">
                 <div className="grid">
                     <Card
                         image={dish1}

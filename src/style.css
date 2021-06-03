@@ -72,11 +72,15 @@ nav > div {
 .headline {
     display: flex;
     justify-content: space-between;
-    font-size: 34px;
+    font-size: 44px;
 }
 
 .px-6 {
     padding: 0 5rem;
+}
+
+.mb-6 {
+    margin-bottom: 4rem;
 }
 
 .grid {
